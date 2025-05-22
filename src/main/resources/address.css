@@ -1,0 +1,65 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #20B2AA, #008080);
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.label {
+    -fx-font-size: 28px;
+    -fx-text-fill: darkblue;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    -fx-background-color: #f0f8ff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #fffacd;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+#add-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+#delete-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+#edit-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+#logout-button {
+    -fx-background-color: #FF9800;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
